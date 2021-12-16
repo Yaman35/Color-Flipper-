@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: 0.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  width: 51%;
+  margin: 300px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#container #background {
+  height: auto;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  min-width: 400px;
+}
+
+#container #background h1 span {
+  color: #04b6fd;
+}
+
+#container #main {
+  width: 30%;
+}
+
+#container #main h6 {
+  padding: 13px;
+  text-align: center;
+  height: auto;
+  width: 130px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+#container #main h6:hover {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
